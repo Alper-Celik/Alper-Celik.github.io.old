@@ -1,0 +1,5 @@
+.direnv
+.jekyll-cache
+_site
+result
+vendor
