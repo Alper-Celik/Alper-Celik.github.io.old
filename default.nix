@@ -1,4 +1,5 @@
 { stdenvNoCC
+, imagemagick
 , ruby
 , bundler
 , bundix
