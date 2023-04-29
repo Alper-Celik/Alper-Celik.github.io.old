@@ -1,5 +1,7 @@
 # The Site Configuration
-
+#
+jekyll_compose:
+  auto_open: true
 # Import the theme
 theme: jekyll-theme-chirpy
 
