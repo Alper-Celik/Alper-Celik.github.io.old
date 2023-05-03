@@ -115,17 +115,17 @@ meta = with lib;{
 ```
 
 and i was ready to create pr for it
-i created and waited about a week and @ NickCao (space for preventing accidentally pinging)
+i created and waited about a week and @NickCao
 pointed out i forget to format package commit message and [recommended formatting package dependencies with [`nixpkgs-fmt`][nixpkgs-fmt].
 i was actually using [`nixpkgs-fmt`][nixpkgs-fmt] with [`nul-ls.nvim`][null-ls-nvim], it was actually formatted but when i put one dependency to
 other line it expanded and this fixed formatting.
 to be fair i was put the formatted the pr message like that and forget to actually format commit message i fixed that.
 
-after fixing problems with pr i thanked @ NickCao for reviewing my pr with my _`perfect`_ english.
+after fixing problems with pr i thanked @NickCao for reviewing my pr with my _`perfect`_ english.
 
-after about a day later @ NickCao merged my pr and i was officially a nixpkgs package maintainer
+after about a day later @NickCao merged my pr and i was officially a nixpkgs package maintainer
 
-after a while i backported to 22.11 release because i was using stable release on my `flake.nix` and it got quickly merged by @ superherointj too
+after a while i backported to 22.11 release because i was using stable release on my `flake.nix` and it got quickly merged by @superherointj too
 
 after some more time i switched to using unstable release system wide instead of having stable and unstable nixos side by side this broked running Qt
 info gui when developing because Qt program wasn't wrapped while developing so i updated my `flake.nix` to nixos-unstable too
@@ -144,7 +144,7 @@ cmakeFlags = [
 ];
 ```
 
-after @ wegank helped me with grammar, layout of the sentences and misspellings (he fixed them) he merged the pr.
+after @wegank helped me with grammar, layout of the sentences and misspellings (he fixed them) he merged the pr.
 i will probably enable tests on next version of the library if building tests on the latest compilers gets fixed by then
 lastly there was no need to backport this pr since stable(22.11) was still using gcc 11
 
